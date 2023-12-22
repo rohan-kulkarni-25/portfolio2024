@@ -41,7 +41,7 @@ const Projects = () => {
         As the projects need to be deployed it will take some time to get this
         section update but for sure before 2024
       </span>
-      <div className="flex flex-row flex-wrap gap-16 mt-12 justify-center sm:gap-4 sm:flex-col px-8">
+      <div className="opacity-25 flex flex-row flex-wrap gap-16 mt-12 justify-center sm:gap-4 sm:flex-col px-8">
         {ProjectList.map((project) => {
           return <ProjectCard key={project.title} data={project} />;
         })}

@@ -23,18 +23,13 @@ const Experiences = () => {
           </div>
 
           <p className="text-left text-lg text-gray-500 w-full sm:text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-            modi optio officia fugit consequuntur earum dolore voluptatum,
-            molestias animi quisquam dolorum vero incidunt corporis
-            reprehenderit ipsa repudiandae saepe ipsam, deleniti eaque debitis.
-            Illo modi reprehenderit totam, ex repellat distinctio iure accusamus
-            repellendus dignissimos eum, est incidunt. Eius corporis blanditiis
-            facere non ullam, consequatur error quidem incidunt! Similique
-            repellendus commodi aut qui eius architecto in cumque, fugiat a
-            animi sequi ab officia soluta sit maiores. Reprehenderit sint cum
-            vitae rem, sit corrupti eum maxime ipsum enim reiciendis nesciunt
-            deserunt aliquid temporibus saepe ratione totam repudiandae. Est,
-            officiis error. Corrupti, officia similique!
+            During my internship at Cloudware Solutions as a Software
+            Development Engineer, I immersed myself in React to construct a
+            dynamic web application. My primary responsibility involved
+            seamlessly integrating the app with Firebase, honing my skills in
+            both front-end development and cloud-based solutions. This
+            experience enriched my proficiency in creating robust and scalable
+            applications.
           </p>
         </div>
         {/* <div className="border border-gray-400 w-3/4 flex-row flex place-content-between p-4 rounded-2xl gap-24">

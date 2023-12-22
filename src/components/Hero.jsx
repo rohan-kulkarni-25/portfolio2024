@@ -31,7 +31,7 @@ const Hero = () => {
           </div>
           <div className="flex flex-row gap-12 ">
             <a
-              href=""
+              href="https://drive.google.com/file/d/1ZNf5yIXKoX9VSCdWXewLq2xqRtvdMTUE/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="border-blue-300 border hover:bg-blue-500 hover:text-white  p-4 rounded-2xl text-xl shadow-xl sm:text-sm sm:p-3"
