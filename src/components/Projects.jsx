@@ -31,15 +31,17 @@ const Projects = () => {
       className="h-fit w-full my-24 flex flex-col gap-8 py-12 min-h-screen"
       id="projects"
     >
-      <span className="text-center text-2xl italic ">
+      <span className="text-center text-2xl italic sm:text-lg">
         "Beyond Syntax, Writing Code That Matter."
       </span>
-      <span className="text-center text-8xl font-bold ">Projects</span>
-      <span className="text-center text-2xl text-gray-500 italic">
+      <span className="text-center text-8xl font-bold sm:text-5xl">
+        Projects
+      </span>
+      <span className="text-center text-2xl text-gray-500 italic sm:text-sm px-8">
         As the projects need to be deployed it will take some time to get this
         section update but for sure before 2024
       </span>
-      <div className="opacity-50 flex flex-row flex-wrap gap-16 mt-12 justify-center ">
+      <div className="flex flex-row flex-wrap gap-16 mt-12 justify-center sm:gap-4 sm:flex-col px-8">
         {ProjectList.map((project) => {
           return <ProjectCard key={project.title} data={project} />;
         })}

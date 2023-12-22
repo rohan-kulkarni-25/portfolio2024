@@ -5,28 +5,33 @@ import { MdWork } from "react-icons/md";
 
 const AboutMe = () => {
   return (
-    <div className="h-fit w-full my-24 flex flex-col gap-8 py-12" id="about">
-      <span className="text-center text-2xl italic">
+    <div
+      className="h-fit w-full my-24 flex flex-col gap-8 py-12 sm:my-12 sm:py-4"
+      id="about"
+    >
+      <span className="text-center text-2xl italic sm:text-sm">
         "Explore the coder's story and passions, one byte at a time."
       </span>
-      <span className="text-center text-8xl font-bold">About Me</span>
-      <div className="flex flex-row mt-12 justify-center">
-        <div className="w-1/4 h-fit place-self-center flex flex-row justify-center ">
+      <span className="text-center text-8xl font-bold sm:text-5xl">
+        About Me
+      </span>
+      <div className="flex flex-row mt-12 justify-center sm:flex-col sm:gap-8 sm:mt-0">
+        <div className="w-1/4 h-fit place-self-center flex flex-row justify-center sm:w-1/2">
           <img
             className=" rounded-2xl "
             src="https://res.cloudinary.com/dw58xmffd/image/upload/v1703021778/387080350_18004808654013051_2312138016343497425_n_isfqxa.jpg"
           />
         </div>
-        <div className="flex flex-col gap-12 w-2/5 ">
-          <div className="flex flex-row justify-evenly">
-            <div className="border border-gray-500 w-2/6 text-2xl flex-col flex place-items-center p-4 gap-4 rounded-2xl">
+        <div className="flex flex-col gap-12 w-2/5 sm:w-full sm:gap-4">
+          <div className="flex flex-row justify-evenly sm:flex-col px-12 sm:gap-8">
+            <div className="border border-gray-500 w-2/6 text-2xl flex-col flex place-items-center p-4 gap-4 rounded-2xl sm:w-full">
               <PiMedalFill />
               <span className="font-bold">Experience</span>
               <p className="text-center text-xl text-gray-500">
                 1 year experience in development
               </p>
             </div>
-            <div className="border border-gray-500 w-2/6 text-2xl flex-col flex place-items-center p-4 rounded-2xl gap-4">
+            <div className="border border-gray-500 w-2/6 text-2xl flex-col flex place-items-center p-4 rounded-2xl gap-4 sm:w-full">
               <FaPeopleGroup />
               <span className="font-bold">Education</span>
               <p className="text-center text-xl text-gray-500">
@@ -53,7 +58,7 @@ const AboutMe = () => {
               with Firebase.
             </p>
           </div> */}
-          <p className="w-3/4 text-xl leading-loose text-justify place-self-center">
+          <p className="w-3/4 text-xl leading-loose text-justify place-self-center sm:text-lg sm:mt-8">
             As a versatile and collaborative developer, I specialize in crafting
             seamless web and cross-platform solutions. My perpetual learner's
             mindset is reflected in the{" "}

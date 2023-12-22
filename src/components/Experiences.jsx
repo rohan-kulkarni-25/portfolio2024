@@ -2,15 +2,17 @@ const Experiences = () => {
   return (
     <div
       className="h-fit w-full my-24 flex flex-col gap-8 py-12 "
-      id="experience"
+      id="experience sm:my-12 sm:py-12"
     >
-      <span className="text-center text-2xl italic">
+      <span className="text-center text-2xl italic sm:text-lg">
         "Beyond Syntax, Writing Code That Matter."
       </span>
-      <span className="text-center text-8xl font-bold">Experience</span>
+      <span className="text-center text-8xl font-bold sm:text-5xl">
+        Experience
+      </span>
       <div className="flex flex-col place-items-center gap-12 mt-12 justify-center ">
-        <div className="border border-gray-400 w-3/4 flex-row flex place-content-between p-4 rounded-2xl gap-24">
-          <div className="flex flex-col gap-1  justify-center items-center font-bold w-96">
+        <div className="border border-gray-400 w-3/4 flex-row flex place-content-between p-4 rounded-2xl gap-24 sm:flex-col sm:gap-8">
+          <div className="flex flex-col gap-1  justify-center items-center font-bold w-96 sm:w-full">
             <span className="text-2xl">SDE Intern</span>
             <p className="text-center text-lg text-gray-500">
               Cloudware Solutions LLC
@@ -20,7 +22,7 @@ const Experiences = () => {
             </span>
           </div>
 
-          <p className="text-left text-lg text-gray-500 w-full">
+          <p className="text-left text-lg text-gray-500 w-full sm:text-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
             modi optio officia fugit consequuntur earum dolore voluptatum,
             molestias animi quisquam dolorum vero incidunt corporis

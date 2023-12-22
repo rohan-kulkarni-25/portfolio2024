@@ -2,7 +2,7 @@ import { FaLightbulb } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <div className="bg-white border flex-row items-center border-b-gray-500 h-20 flex justify-between gap-8 px-24">
+    <div className="bg-white border flex-row items-center border-b-gray-500 h-20 flex justify-between gap-8 px-24 sm:hidden">
       <span className="text-xl italic">rohankulkarni.dev</span>
       <div className="flex flex-row">
         <ul className="flex flow-row gap-12 text-xl cursor-pointer ">
@@ -33,12 +33,15 @@ const Header = () => {
         </ul>
       </div>
       <div className="flex flex-row place-items-center gap-8">
-        <button className="text-xl bg-purple-600 rounded-2xl p-3 text-white   font-bold">
+        <a
+          href="mailto:rohank2502@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+          className="text-xl bg-purple-600 rounded-2xl p-3 text-white   font-bold"
+        >
           Hire Me !!
-        </button>
-        <button>
-          <FaLightbulb className="text-3xl" />
-        </button>
+        </a>
+        <button>{/* <FaLightbulb className="text-3xl" /> */}</button>
       </div>
     </div>
   );

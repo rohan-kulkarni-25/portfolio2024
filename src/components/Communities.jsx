@@ -49,16 +49,16 @@ const Communities = () => {
       className="h-fit w-full my-24 flex flex-col gap-8 py-12"
       id="community"
     >
-      <span className="text-center text-2xl italic ">
+      <span className="text-center text-2xl italic sm:text-lg sm:p-4">
         "Collaboration First ! Code Second !" - Shoutout to{" "}
         <a href="https://www.eddiehub.org/" className="italic font-bold">
           EddieHub
         </a>
       </span>
-      <span className="text-center text-8xl font-bold ">
+      <span className="text-center text-8xl font-bold sm:text-5xl">
         Community Contributions
       </span>
-      <div className="flex flex-row flex-wrap gap-16 mt-12 justify-center ">
+      <div className="flex flex-row flex-wrap gap-16 mt-12 justify-center sm:flex-col sm:gap-8 sm:px-4">
         {communitiesList.map((community) => {
           return <CommunityCard key={community.title} data={community} />;
         })}

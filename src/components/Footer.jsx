@@ -2,8 +2,10 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col justify-center items-center bg-yellow-200 p-48">
-      <span className="text-9xl text-center italic">rohankulkarni.dev</span>
+    <div className="flex flex-col justify-center items-center bg-blue-300 p-4 sm:p-2">
+      <span className="text-2xl text-center italic sm:text-xl ">
+        rohankulkarni.dev
+      </span>
     </div>
   );
 };
