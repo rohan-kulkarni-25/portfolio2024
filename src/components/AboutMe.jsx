@@ -5,15 +5,15 @@ import { MdWork } from "react-icons/md";
 
 const AboutMe = () => {
   return (
-    <div className="h-screen w-full my-24 flex flex-col gap-4">
+    <div className="h-fit w-full my-24 flex flex-col gap-8 py-12" id="about">
       <span className="text-center text-2xl italic">
         "Explore the coder's story and passions, one byte at a time."
       </span>
-      <span className="text-center text-7xl">About Me</span>
-      <div className="flex flex-row mt-24 justify-center">
-        <div className="w-2/5 flex flex-row justify-center ">
+      <span className="text-center text-8xl font-bold">About Me</span>
+      <div className="flex flex-row mt-12 justify-center">
+        <div className="w-1/4 h-fit place-self-center flex flex-row justify-center ">
           <img
-            className=" rounded-2xl w-2/3"
+            className=" rounded-2xl "
             src="https://res.cloudinary.com/dw58xmffd/image/upload/v1703021778/387080350_18004808654013051_2312138016343497425_n_isfqxa.jpg"
           />
         </div>
@@ -30,12 +30,12 @@ const AboutMe = () => {
               <FaPeopleGroup />
               <span className="font-bold">Education</span>
               <p className="text-center text-xl text-gray-500">
-                Final Year Undergrad Bachelor's in Computer Science from SITS
+                Final Year Undergrad, Bachelor's in Computer Science from SITS
                 Pune
               </p>
             </div>
           </div>
-          <div className="border border-gray-500 w-3/4 place-self-center text-2xl flex-col flex place-items-center p-4 rounded-2xl gap-4">
+          {/* <div className="border border-gray-500 w-3/4 place-self-center text-2xl flex-col flex place-items-center p-4 rounded-2xl gap-4">
             <MdWork />
 
             <p className="flex flex-row gap-4 items-center font-bold">
@@ -46,16 +46,26 @@ const AboutMe = () => {
               </span>
             </p>
             <p className="text-center text-xl text-gray-500">
-              Final Year Undergrad Bachelor's in Computer Science from SITS Pune
+              Cloudware Solutions LLC
             </p>
-          </div>
-          <p className="w-3/4 place-self-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-            reprehenderit et laborum, rem, dolore eum quod voluptate
-            exercitationem nobis, nihil esse debitis maxime facere minus sint
-            delectus velit in eos quo officiis explicabo deleniti dignissimos.
-            Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-            reiciendis ea magnam? Nulla, impedit fuga!
+            <p className="text-center text-lg text-gray-500">
+              I was responsible to build a webapp using React and Integrate it
+              with Firebase.
+            </p>
+          </div> */}
+          <p className="w-3/4 text-xl leading-loose text-justify place-self-center">
+            As a versatile and collaborative developer, I specialize in crafting
+            seamless web and cross-platform solutions. My perpetual learner's
+            mindset is reflected in the{" "}
+            <span className="font-bold italic">learn in public</span> mantra,
+            showcasing not just technical prowess but a dedicated journey of
+            innovation and effective problem-solving. Throughout my digital
+            endeavors, I intertwine creativity and code, ensuring each project
+            becomes a testament to my evolving skills and passion for delivering
+            exceptional results. With a commitment to staying at the forefront
+            of technology, I navigate the ever-evolving landscape, embracing
+            challenges as opportunities to grow and contribute meaningfully to
+            the world of development.
           </p>
         </div>
       </div>

@@ -1,21 +1,22 @@
 import AboutMe from "./components/AboutMe";
-import Hero from "./components/Header/Hero";
+import Hero from "./components/Hero";
 import { FaAngleDoubleDown } from "react-icons/fa";
 import ToolKit from "./components/ToolKit";
 import Footer from "./components/Footer";
+import Experiences from "./components/Experiences";
+import Projects from "./components/Projects";
+import Communities from "./components/Communities";
 
 const App = () => {
   return (
     <div>
       <Hero />
-      <div className="bg-yellow-200 w-fit mx-auto p-8 rounded-2xl text-center text-2xl ">
-        Fusing Passion with Community: Co-Creating Experiences at
-        <span className="font-bold italic"> React India </span>
-        and Sparking Innovation with
-        <span className="font-bold italic"> Hack The League</span>.
-      </div>
+      
 
       <AboutMe />
+      <Experiences />
+      <Projects />
+      <Communities />
       {/* <ToolKit /> */}
       <Footer />
     </div>
